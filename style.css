@@ -81,3 +81,20 @@ h1 {
     margin-left: 10px;
     margin-top: 400px;
 }
+
+h2 {
+    font-family: "Helvetica, Arial, Sans-serif";
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+footer {
+    font-family: "Helvetica, Arial, Sans-serif";
+    font-size: 25px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;
+}
