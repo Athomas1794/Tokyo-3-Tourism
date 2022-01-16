@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "Helvetica, Arial, Sans-serif";
+    font-size: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -89,6 +91,7 @@ h2 {
     position: relative;
     margin-left: 10px;
     margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -97,4 +100,35 @@ footer {
     position: relative;
     margin-left: 10px;
     margin-top: 40px;
+}
+
+p {
+    position: relative;
+    margin-left: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1260px;
+    padding: 0 60px;
+}
+
+#information {
+    border-top: 10px solid #e9b31f;
+    border-left: 13px solid #e9b31f;
+    padding: 20px 10px;
+    color: #e9b31f;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#information h2 {
+    margin-top: 12px;
+}
+
+#information p {
+    color: black;
+    font-size: 16px;
+    padding-top: 5px;
 }
