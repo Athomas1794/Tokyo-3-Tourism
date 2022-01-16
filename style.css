@@ -64,7 +64,7 @@ nav ul li {
     padding-right: 1.5em;
 }
 
-#hero {
+.banner-photo {
     margin-top: 35px;
     height: 470px;
     background-image: url('Resources/images/Tokyo3-skyline-banner.png');
@@ -72,6 +72,20 @@ nav ul li {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+}
+
+#new.banner-photo {
+    background-image: url('Resources/images/ramiel-banner.jpg');
+}
+
+.banner-header {
+    color: #FFF;
+    font-family: "Helvetica, Arial, Sans-serif";
+    font-weight: bold;
+    font-size: 80px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 350px;
 }
 
 h1 {
