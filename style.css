@@ -175,7 +175,6 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 1.5em;
-    height: 300px;
     width: 100%;
 }
 
@@ -200,6 +199,7 @@ p {
     width: 100%;
     padding-left: 5%;
     padding-right: 0;
+    padding-bottom: 15%;
     flex-wrap: wrap;
     border-left: 10px solid #e5e5e5;
     border-bottom: 10px solid #e5e5e5;
