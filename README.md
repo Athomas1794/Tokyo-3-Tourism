@@ -10,4 +10,4 @@ Tokyo-3 mock tourism guide
 - Device Responsive
 
 
-Deployment status: local
+Deployment status: https://athomas1794.github.io/Tokyo-3-Tourism/
