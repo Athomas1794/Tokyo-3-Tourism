@@ -215,3 +215,15 @@ p {
     border-color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+    h1, .banner-header {
+      margin-top: 300px;
+    }
+  }
+
+@media screen and (max-width: 300px) {
+    h1, .banner-header {
+      margin-top: 250px;
+    }
+  }
