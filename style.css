@@ -198,7 +198,7 @@ p {
     height: 40%;
     width: 100%;
     padding-left: 5%;
-    padding-right: 0;
+    padding-right: 5%;
     padding-bottom: 15%;
     flex-wrap: wrap;
     border-left: 10px solid #e5e5e5;
