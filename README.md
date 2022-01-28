@@ -7,6 +7,7 @@ Tokyo-3 mock tourism guide
 - Banners
 - Flexbox
 - Hover events
+- Device Responsive
 
 
 Deployment status: local
