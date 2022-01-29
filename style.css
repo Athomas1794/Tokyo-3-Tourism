@@ -125,6 +125,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+#events h2 {
+    font-size: 50px;
+}
+
 h3 {
     font-weight: bold;
 }
@@ -184,9 +188,9 @@ p {
     justify-content: space-around;
     flex-direction: column;
     margin: 10px;
-
     overflow: hidden;
 }
+
 .highlight-img {
     width: 100%;
     height: 60%;
@@ -216,9 +220,69 @@ p {
     cursor: pointer;
 }
 
+.event-calendar {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 2%;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 10px;
+    margin-left: 20px;
+    border-bottom: 20px solid gray;
+}
+
+.event-img {
+    flex-shrink: 0;
+    height: 400px;
+    width: 250px;
+    overflow-x: hidden;
+}
+
+.event-txt {
+    position: relative;
+    margin-top: -35px;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: white;
+    overflow-x: hidden;
+}
+
 @media screen and (max-width: 750px) {
     h1, .banner-header {
       margin-top: 300px;
+    }
+
+    nav ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav ul li {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    nav img {
+        height: 55px;
+        width: 55px;
+        padding-right: 10px;
+        display: block;
+        align-items: center;
+    }
+
+    #events h2 {
+        text-align: center;
+    }
+
+    .event-img {
+        height: 200px;
+        width: 150px;
     }
   }
 
