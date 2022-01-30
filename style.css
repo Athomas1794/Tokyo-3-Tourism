@@ -101,6 +101,7 @@ nav ul li {
     font-family: "Helvetica, Arial, Sans-serif";
     font-weight: bold;
     font-size: 80px;
+    text-shadow: 4px 4px black;
     position: relative;
     margin-left: 25px;
     margin-top: 350px;
@@ -111,6 +112,7 @@ h1 {
     font-family: "Helvetica, Arial, Sans-serif";
     font-weight: bold;
     font-size: 50px;
+    text-shadow: 4px 4px black;
     position: relative;
     margin-left: 10px;
     margin-top: 400px;
@@ -119,14 +121,10 @@ h1 {
 h2 {
     font-family: "Helvetica, Arial, Sans-serif";
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
     margin-left: 10px;
     margin-top: 40px;
     margin-bottom: 15px;
-}
-
-#events h2 {
-    font-size: 50px;
 }
 
 h3 {
@@ -163,6 +161,7 @@ p {
 }
 
 #information h2 {
+    font-size: 25px;
     margin-top: 12px;
 }
 
@@ -234,7 +233,12 @@ p {
     flex-shrink: 0;
     margin: 10px;
     margin-left: 20px;
-    border-bottom: 20px solid gray;
+    border-bottom: 20px solid #e5e5e5;
+}
+
+.event-item:hover {
+    border-color: gray;
+    cursor: pointer;
 }
 
 .event-img {
@@ -253,9 +257,58 @@ p {
     overflow-x: hidden;
 }
 
+#todo.banner-photo {
+    background-image: url('Resources/images/nerv-hq.png');
+}
+
+.todo-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+.todo-item {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin: 10px;
+}
+
+.todo-img {
+    width: 350px;
+    height: 225px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.todo-img:hover {
+    cursor: pointer;
+}
+
+.todo-txt {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    flex-shrink: 1;
+    color: white;
+    text-shadow: 2px 2px black;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 750px) {
     h1, .banner-header {
       margin-top: 300px;
+    }
+
+    .banner-header {
+        font-size: 4rem;
     }
 
     nav ul {
