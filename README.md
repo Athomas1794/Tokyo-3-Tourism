@@ -1,5 +1,5 @@
 # Tokyo-3-Tourism.github.io
-Tokyo-3 mock tourism guide
+Tokyo-3 mock tourism guide. Based on the official Tokyo tourism website
 
 PC and Mobile Responsive
 
